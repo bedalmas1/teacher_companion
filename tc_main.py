@@ -23,3 +23,5 @@ matière = st.selectbox(
     ('Maths - Additions/soustraction', 'Français - Compréhension de texte', 'Culture générale'))
 
 res = st.button("Générer", key=None, help=None,args=None, kwargs=None, type="secondary", disabled=False, use_container_width=False)
+
+st.text(np.random())
